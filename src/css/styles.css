@@ -1,0 +1,66 @@
+* { 
+	margin: 0;
+	padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+} 
+body { 
+	background: #fff; 
+	margin: 0; 
+	color: #5a5a5a;
+}
+
+.intro-title {
+	font-weight: 700;
+	font-size: 63px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #FFFFFF;
+	border-bottom-color: rgba(255,255,255,0.35);
+	padding-top: 200px;
+}
+
+.intro-subtitle {
+	font-size: 28px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+
+p { 
+	padding: 0; 
+	margin-bottom: 12px; 
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px; 
+	line-height: 28px;
+	color: #666; 
+	margin-top: 10px; 
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.header {
+	background-image: url('/img/oriental-background-vector.jpg');
+	background-size: cover;
+	min-height: 650px;
+	overflow: hidden;
+}
+
+.header-text {
+	padding
+}
+
+.alignleft { float: left; }
+.alignright { float: right; }
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	clear: both;
+}
+.centered {text-align: center}
