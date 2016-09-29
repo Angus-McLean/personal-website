@@ -1,17 +1,95 @@
 Header
-	- Hey, I'm Angus \n and 
-	
-Profile : 
-	- 
-	
+	- Hey, I'm Angus \n and
+
+Profile :
+	-
+
 Experiences
-
-
-Abilities
-
+	Education
+	Professional
 
 Projects
 
+
+Abilities
+- Programming
+	* Javascript
+	* NodeJS
+	* Python
+	* Regex
+	* Java
+	* PHP
+	* C/C++
+	* HTML
+	* CSS
+	* MySQL
+	* Bash Scripting
+	* WebRTC
+
+	* Arduino
+	* RaspberryPi
+	* PixHawk
+
+	* OOP
+	* Singleton Patterns
+	* Event Listener Patterns
+	* Modular Design
+	* Dependency Injection
+	* Asynchronous Programming
+	* Multi-Threaded Programming
+
+	* XML
+	* SOAP
+	* XML-RPC
+	* JSON
+	* REST
+	* Web APIs
+
+	* SSH
+	* HTTP / HTTPS
+	* Web Sockets
+	* WebRTC
+	* FTP / SFTP
+	* Crypto Currencies
+	* Serial Communications
+
+- Libraries & Frameworks
+	* AngularJS
+	* ReactJS
+	* Backbone
+	* Socket.io
+	* Express
+	* Electron
+	* gulp
+	* bower
+	* WebCrypto
+	* D3
+	* Ionic Framework
+
+	* Flask
+	* NumPy
+	* OpenCV
+	* TensorFlow
+
+	* Bootstrap
+	* jQuery
+
+	* ArduPilotMega
+	* Mavlink
+
+- Tools
+	* Git
+	* Tortoise SVN
+	* Docker
+	* MongoDB
+	* RedisDB
+	* CouchDB
+	* Nginx
+	* AWS Infrastructure
+	* FileZilla / FTP
+	* Putty / SSH
+
+- Soft Skills
 
 Blog
 

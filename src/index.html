@@ -3,42 +3,709 @@
 <head>
 	<meta charset="utf-8">
 	<title>Angus McLean Ninja</title>
-	
+
 	<!-- Bootstrap core CSS -->
 	<link href="/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link href="/css/styles.css" rel="stylesheet">
-	
+
+	<script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/scripts.js"></script>
 </head>
 <body>
+	<header class="notice-message">
+		I'm still working away at this! &nbsp;For more detailed info contact me <a href="#contact"><u>here.</u></a>
+	</header>
 	<div class="header">
-		<div class="container centered">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<h1 class="intro-title">
-						Angus McLean
-					</h1>
-					<p class="intro-subtitle">
-						Aspiring Tech Ninja
-					</p>
-				</div>
-			</div>
-			
+		<div class="container centered intro-container">
+			<h1 class="intro-title">
+				Angus McLean
+			</h1>
+			<p class="intro-subtitle">
+				Aspiring Tech Ninja
+			</p>
 		</div>
+		<a href="#profile" class="intro-scroll">
+			<span class="glyphicon glyphicon-chevron-down"></span>
+		</a>
 	</div>
-	<div class="body">
-		<div class="container centered">
+	<div>
+		<div id="profile" class="container">
+			<h1>Profile</h1>
+			<p class="lead">Full Stack and IoT Developer</p>
+
+			<hr>
+
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<h1>
-						Angus McLean
-					</h1>
+				<div class="col-md-4">
+					<h3>About me</h3>
 					<p>
-						Aspiring Tech Ninja
+						I am an all-round "Tech Ninja" in the making. I have strong roots in web developement (front and back ends) with a passion for building multifaceted IoT systems. I pride myself on learning and applying quickly. Also I'm a strong believer in teamwork!
+					</p>
+				</div>
+				<div class="col-md-4 text-center">
+					<img src="/img/Angus_professional_photo.jpg" alt="Angus McLean" width="246" height="246">
+				</div>
+				<div class="col-md-4">
+					<h3>Details</h3>
+					<p>
+						<strong>Name:</strong><br>
+						Angus McLean<br>
+						<strong>Location:</strong><br>
+						Montreal, Canada, Earth<br>
+						<strong>Tabs vs Spaces:</strong><br>
+						Tabs. (occaisionally spaces)
 					</p>
 				</div>
 			</div>
-			
+		</div>
+
+	</div>
+	<div class="background-grey">
+		<div id="experiences" class="container">
+		<h1>Experiences</h1>
+		<p class="lead">
+			“Experience is the teacher of all things.”<br>- Julius Caesar
+		</p>
+		<hr>
+
+		<h3>Education</h3>
+		<div class="experiences">
+			<div class="experience row">
+				<div class="col-md-4">
+					<h4>McGill University</h4>
+					<p class="experience-period"> Sept 2012 - Current </p>
+				</div>
+				<div class="col-md-8">
+					<p>
+						<strong>Bachelor - Electrical Engineering</strong>
+						<br/>
+						<span class="hidden-phone">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum ex nisi, ac fermentum ante ultricies vel. Vivamus imperdiet imperdiet mattis. Nunc urna nisi, dapibus non suscipit et, vestibulum ac massa. Nulla ac ligula ac risus molestie facilisis. Vestibulum aliquet diam eu scelerisque fringilla. Aliquam erat volutpat. Quisque in tortor maximus, tincidunt odio at, porta lacus. Cras auctor semper velit.
+						</span>
+					</p>
+				</div>
+			</div>
+
+			<div class="experience row">
+				<div class="col-md-4">
+					<h4>Colonel By Secondary School</h4>
+					<p class="experience-period"> Sept 2008 - Apr 2012 </p>
+				</div>
+				<div class="col-md-8">
+					<p>
+						<strong>International Baccalaureate Program (IB)</strong>
+						<br/>
+						<span class="hidden-phone">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum ex nisi, ac fermentum ante ultricies vel. Vivamus imperdiet imperdiet mattis. Nunc urna nisi, dapibus non suscipit et, vestibulum ac massa. Nulla ac ligula ac risus molestie facilisis. Vestibulum aliquet diam eu scelerisque fringilla. Aliquam erat volutpat. Quisque in tortor maximus, tincidunt odio at, porta lacus. Cras auctor semper velit.
+						</span>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<hr>
+
+		<h3>Professional</h3>
+		<div class="experiences">
+			<div class="experience row">
+				<div class="col-md-4">
+					<h4>Gurus Solutions</h4>
+					<p class="experience-period">May 2016 - Sept 2016 </p>
+				</div>
+				<div class="col-md-8">
+					<p>
+						<strong>Intern - Cloud Developer</strong>
+						<br/>
+						<span class="hidden-phone">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum ex nisi, ac fermentum ante ultricies vel. Vivamus imperdiet imperdiet mattis. Nunc urna nisi, dapibus non suscipit et, vestibulum ac massa. Nulla ac ligula ac risus molestie facilisis. Vestibulum aliquet diam eu scelerisque fringilla. Aliquam erat volutpat. Quisque in tortor maximus, tincidunt odio at, porta lacus. Cras auctor semper velit.
+						</span>
+						<br/>
+						<span class="experience-details">
+							<span class="location">
+								<span class="glyphicon glyphicon-map-marker"></span>
+								Montreal
+							</span>
+
+
+							<span class="seperator">|</span>
+							<span class="link">
+								<span class="glyphicon glyphicon-link"></span>
+								<a href="http://gurussolutions.com" target="_blank">http://gurussolutions.com</a>
+							</span>
+						</span>
+					</p>
+				</div>
+			</div>
+			<div class="experience row">
+				<div class="col-md-4">
+					<h4>Enkioo Technologies</h4>
+					<p class="experience-period">Sept 2015 - Feb 2016 </p>
+				</div>
+				<div class="col-md-8">
+					<p>
+						<strong>CTO - Co-founder</strong>
+						<br/>
+						<span class="hidden-phone">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum ex nisi, ac fermentum ante ultricies vel. Vivamus imperdiet imperdiet mattis. Nunc urna nisi, dapibus non suscipit et, vestibulum ac massa. Nulla ac ligula ac risus molestie facilisis. Vestibulum aliquet diam eu scelerisque fringilla. Aliquam erat volutpat. Quisque in tortor maximus, tincidunt odio at, porta lacus. Cras auctor semper velit.
+						</span>
+						<br/>
+						<span class="experience-details">
+							<span class="location">
+								<span class="glyphicon glyphicon-map-marker"></span>
+								Montreal
+							</span>
+							<span class="seperator">|</span>
+							<span class="link">
+								<span class="glyphicon glyphicon-link"></span>
+								<a href="http://enkidootech.com" target="_blank">http://enkidootech.com</a>
+							</span>
+						</span>
+					</p>
+				</div>
+			</div>
+			<div class="experience row">
+				<div class="col-md-4">
+					<h4>ERP Guru</h4>
+					<p class="experience-period">Jan 2015 - Sept 2015 </p>
+				</div>
+				<div class="col-md-8">
+					<p>
+						<strong>Intern - Netsuite Developer</strong>
+						<br/>
+						<span class="hidden-phone">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum ex nisi, ac fermentum ante ultricies vel. Vivamus imperdiet imperdiet mattis. Nunc urna nisi, dapibus non suscipit et, vestibulum ac massa. Nulla ac ligula ac risus molestie facilisis. Vestibulum aliquet diam eu scelerisque fringilla. Aliquam erat volutpat. Quisque in tortor maximus, tincidunt odio at, porta lacus. Cras auctor semper velit.
+						</span>
+						<br/>
+						<span class="experience-details">
+							<span class="location">
+								<span class="glyphicon glyphicon-map-marker"></span>
+								Montreal
+							</span>
+
+
+							<span class="seperator">|</span>
+							<span class="link">
+								<span class="glyphicon glyphicon-link"></span>
+								<a href="http://gurussolutions.com" target="_blank">http://gurussolutions.com</a>
+							</span>
+						</span>
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</div>
+
+	<div id="projects" class="container">
+		<h1>Projects</h1>
+		<p class="lead">
+			“Whatever good things we build end up building us.”<br>- Jim Rohn
+		</p>
+		<hr>
+	</div>
+
+	<div class="background-grey">
+		<div id="abilities" class="container">
+			<h1>Abilities</h1>
+			<p class="lead">
+				“Every success is built on the ability to do better than good enough.”<br>- Unknown
+			</p>
+			<hr>
+
+			<h3>Programming</h3>
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="no-bullets">
+						<!-- Languages -->
+						<li>
+							<span class="skill-title">Javascript</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">NodeJS</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Python</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Regex</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Java</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">PHP</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">C/C++</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">HTML</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">CSS</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">MySQL</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Bash Scripting</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Arduino</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">RaspberryPi</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">PixHawk</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<!-- Communication Protocols -->
+
+						<li>
+							<span class="skill-title">SSH</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+
+						<li>
+							<span class="skill-title">FTP / SFTP</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Serial Communications</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul class="no-bullets">
+						<!-- Design Patterns -->
+						<li>
+							<span class="skill-title">OOP</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Singleton Patterns</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Event Listener Patterns</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Modular Design</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Dependency Injection</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Asynchronous Programming</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Multi-Threaded Programming</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<!-- Communication Paradigms / Structures -->
+						<li>
+							<span class="skill-title">XML</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">SOAP</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">XML-RPC</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">JSON</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">REST</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Web APIs</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">HTTP / HTTPS</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Web Sockets</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">WebRTC</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<h3>Libraries & Frameworks</h3>
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="no-bullets">
+						<!-- Javascript -->
+						<li>
+							<span class="skill-title">AngularJS</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">ReactJS</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Backbone</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">D3</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">WebCrypto</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Gulp</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Bower</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Bootstrap</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">jQuery</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<!-- Node JS -->
+						<li>
+							<span class="skill-title">Socket.io</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Express</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Electron</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Ionic Framework</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+
+
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul class="no-bullets">
+						<!-- Python -->
+
+						<li>
+							<span class="skill-title">Flask</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">NumPy</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">OpenCV</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">TensorFlow</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+
+						<!-- Other -->
+
+						<li>
+							<span class="skill-title">ArduPilotMega</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Mavlink</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr>
+
+			<h3>Tools</h3>
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="no-bullets">
+						<li>
+							<span class="skill-title">Git</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Tortoise SVN</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">AWS Infrastructure</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">FileZilla / FTP</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Putty / SSH</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul class="no-bullets">
+						<li>
+							<span class="skill-title">Docker</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">MongoDB</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">RedisDB</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">CouchDB</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+						<li>
+							<span class="skill-title">Nginx</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr>
+
+			<h3>Soft Skills</h3>
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="no-bullets">
+						<li>
+							<span class="skill-title">Mavlink</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul class="no-bullets">
+						<li>
+							<span class="skill-title">Mavlink</span>
+							<span class="skill-score">
+								<span class="glyphicon glyphicon-star filled"></span>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr>
 		</div>
 	</div>
+
+	<div id="contact" class="container">
+		<h1>Contact</h1>
+		<p class="lead">
+			<!-- “If it doesn't challenge you, it won't change you.”<br>- Jim Rohn -->
+			<!-- “Your vibe attracts your tribe.” -->
+			“The best way to predict the future is to create it.”<br>- Peter Drucker
+		</p>
+		<hr>
+		<div class="row">
+			<div class="col-md-6">
+				<ul class="no-bullets">
+					<li>
+						<i class="fa-3x fa fa-linkedin"></i>&nbsp;&nbsp;&nbsp;
+						<a href="https://www.linkedin.com/in/angus-mclean-96ab4760" target="_blank">
+							https://www.linkedin.com/in/angus-mclean-96ab4760
+						</a>
+					</li>
+					<li>
+						<i class="fa-3x fa fa-github"></i>&nbsp;&nbsp;&nbsp;
+						<a href="https://github.com/angus-mclean" target="_blank">
+							https://github.com/angus-mclean
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<ul class="no-bullets">
+					<li>
+						<i class="fa-3x fa fa-envelope-o"></i>&nbsp;&nbsp;&nbsp;
+						<a href="mailto:angus.mclean@mail.mcgill.ca" target="_blank">
+							angus.mclean@mail.mcgill.ca
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
 </body>
 </html>
