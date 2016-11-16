@@ -80,8 +80,30 @@ a {
 	list-style-type: none;
 }
 
-.skill-title {
+.notes {
+	font-weight: 300;
+	color: #666;
+}
 
+.text-small {
+	font-size: 14px;
+}
+
+.text-normal {
+	font-size: 16px;
+}
+
+ul.notes {
+	/*list-style-type: none;*/
+	padding-left: 30px;
+}
+ul.notes > li {
+	text-indent: 15px;
+	padding-top: 3px;
+}
+ul.notes > li:before {
+	/*content: "-";*/
+	text-indent: 15px;
 }
 
 .skill-score {
@@ -90,7 +112,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
 	font-weight: 300;
 	text-align: center;
 	color: #f8ac22;
@@ -99,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
 	padding: 0;
 	margin-bottom: 12px;
-    font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 28px;
@@ -113,6 +135,10 @@ p.lead {
 
 hr {
 	margin: 40px;
+}
+
+hr.small {
+	margin: 10px;
 }
 
 html,
@@ -138,6 +164,10 @@ body {
 	/*margin: 0px 0px !important;*/
 }
 
+div.small-spacing {
+	padding: 20px;
+}
+
 @keyframes wiggle {
 	0% {
 		padding-top: 20px;
@@ -150,4 +180,30 @@ body {
 	100% {
 		padding-top: 20px;
 	}
+}
+
+figure {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+figcaption {
+	position: absolute;
+	background: rgba(0,0,0,0.75);
+	color: white;
+	padding: 10px 20px;
+	max-width: 100%;
+
+	opacity: 0;
+	bottom: 0;
+	left: -30%;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition:    all 0.6s ease;
+	-o-transition:      all 0.6s ease;
+}
+
+figure:hover figcaption {
+	opacity: 1;
+	left: 0;
 }
