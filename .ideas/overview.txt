@@ -9,7 +9,17 @@ Experiences
 	Professional
 
 Projects
-
+- Cyphor
+- WiFly
+- DreamTeam MCT
+- Music Downloader
+- Netsuite Video Chat
+- CSV-Processor
+- QuadCopter
+- Blocker Game
+- Probabilistic Inventory Optimization
+- Pushfeed
+- Javascript Fun facts
 
 Abilities
 - Programming
@@ -93,5 +103,7 @@ Abilities
 
 Blog
 
+More about me
+	(section to describe other stuff i've done etc)
 
 Contact
