@@ -188,6 +188,26 @@ figure {
 	overflow: hidden;
 }
 
+figure span.icon {
+	position: absolute;
+	background: #f8ac22;
+	top: 0px;
+	right: 0px;
+	width: 40px;
+	height: 40px;
+	font-size: 18px;
+	padding: 11px;
+}
+
+figure a {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 1000;
+	top: 0px;
+	left: 0px;
+}
+
 figcaption {
 	position: absolute;
 	background: rgba(0,0,0,0.75);
