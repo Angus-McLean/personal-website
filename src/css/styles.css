@@ -227,3 +227,11 @@ figure:hover figcaption {
 	opacity: 1;
 	left: 0;
 }
+
+.hider {
+	display: none;
+}
+
+.slide-toggle {
+	cursor: pointer;
+}

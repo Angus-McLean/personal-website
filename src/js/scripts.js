@@ -4,6 +4,7 @@
 $(document).ready(function () {
 	applyHeaderResize();
 	applySmoothScroll();
+	applySlideToggles();
 });
 
 function applyHeaderResize() {
@@ -28,5 +29,11 @@ function applySmoothScroll() {
 			}, 400);
 		}
 		return false;
+	});
+}
+
+function applySlideToggles() {
+	$("figure.slide-toggle").click(function() {
+		$(`.slider[name=${this.getAttribute('name')}]`).slideToggle("slow");
 	});
 }
