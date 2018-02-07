@@ -34,6 +34,10 @@ function applySmoothScroll() {
 
 function applySlideToggles() {
 	$("figure.slide-toggle").click(function() {
+		var curShowing = $(`.slider:visible`)
+		if (curShowing.attr('name') != this.getAttribute('name')) {
+			curShowing.slideToggle("slow");
+		}
 		$(`.slider[name=${this.getAttribute('name')}]`).slideToggle("slow");
 	});
 }
