@@ -32,7 +32,7 @@
 	<div>
 		<div id="profile" class="container">
 			<h1>Profile</h1>
-			<p class="lead">Full Stack and IoT Solutions Analyst</p>
+			<p class="lead">Full Stack and Data Science Analyst</p>
 
 			<hr>
 
@@ -40,7 +40,10 @@
 				<div class="col-md-4">
 					<h3>About me</h3>
 					<p>
-						I am an all-round "Tech Ninja" in the making. I have strong roots in web developement (front and back ends) with a passion for building multifaceted IoT systems. I pride myself on learning and applying quickly. Also I'm a strong believer in teamwork!
+						I am an all-round "Tech Ninja" in the making.
+						I have strong roots in cloud developement (front, back and infrastructure) with a passion for building multifaceted smart systems.
+						I pride myself on learning and applying quickly.
+						Also I'm a strong believer in teamwork!
 					</p>
 				</div>
 				<div class="col-md-4 text-center">
@@ -209,7 +212,7 @@
 							<span class="seperator">|</span>
 							<span class="link">
 								<span class="glyphicon glyphicon-link"></span>
-								<a href="http://enkidootech.com" target="_blank">http://enkidootech.com</a>
+								<a href="http://enkidootech.ai" target="_blank">http://enkidootech.ai</a>
 							</span>
 						</span>
 					</p>
@@ -322,7 +325,7 @@
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						Cyphor is an encryption app that enables people to communicate on their favourite websites in complete privacy.
 						Built as a chrome extension, cyphor would seamlessly sit ontop of any social media, email or instant messaging website and encrypt data going in to the site (input boxes) and decrypt data (text elements) coming out.
-						Using state-of-the-art encryption and web XSS policy cyphor can provably provide end-to-end encryption unbreakable to eaves-droppers, the user's platform and cyphor itself.
+						Using state-of-the-art encryption and web XSS policy cyphor can provably provide end-to-end encryption unbreakable to eaves-droppers, the user's platform and Cyphor itself.
 					</p>
 					<p>
 						<strong>Architecture Overview</strong>
@@ -358,30 +361,31 @@
 				<div class="">
 					<h1>WiFly</h1>
 					<p class="lead">
-						Platform Independent End-To-End Encryption App
+						Flying a Quadcopter at Infinite Range
 					</p>
 				</div>
 
 				<div class="col-md-4">
-					<!-- <img src="/img/projects/DreamTeamProject.png" alt=""> -->
+					<img class="project-img" src="/img/projects/missionplanner2.png" alt="">
 				</div>
 				<div class="col-md-8">
 					<p>
 						<strong>Summary</strong>
 						<br/>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						Cyphor is an encryption app that enables people to communicate on their favourite websites in complete privacy.
-						Built as a chrome extension, cyphor would seamlessly sit ontop of any social media, email or instant messaging website and encrypt data going in to the site (input boxes) and decrypt data (text elements) coming out.
-						Using state-of-the-art encryption and web XSS policy cyphor can provably provide end-to-end encryption unbreakable to eaves-droppers, the user's platform and cyphor itself.
+						WiFly was a 24-hr hackathon project built at RoboHacks where I built a system to fly a quadcopter at infinite range by using the cellphone network.
+						I was able to use the RPi with a LTE module to relay commands between the WiFly.tech webserver that was hosting the command interface and the onboard flight computer (ArduCopter) running on the arduino.
+						Using WebSockets to transmit MAVLink commands and telemetry data between web clients, the web server and the drone; users could fly the quadcopter in real-time due to surprisinly low-latency (20-100ms).
+						The project ended up winning the Amazon Web Services prize at the hackathon and was voted one of the top hacks!
 					</p>
 					<p>
 						<strong>Architecture Overview</strong>
 						<ul class="dashed notes text-small">
-							<li>Multi-Context Browser Extension with AngularJS UI</li>
-							<li>NodeJS and MongoDB RESTful backend</li>
-							<li>Docker and Docker-compose infrastructure</li>
+							<li>Raspberry Pi with LTE &amp; Arduino with ArdoCopter</li>
 							<li>Socket.io realtime communciation</li>
-							<li>Signal Protocol, AES and ECC encryption schemes</li>
+							<li>MAVLink protocol and ArduCopter telemetry communication</li>
+							<li>NodeJS RESTful backend</li>
+							<li>AngularJS front-end</li>
 						</ul>
 					</p>
 					<p>
@@ -390,13 +394,13 @@
 						<span class="experience-details">
 							<span class="location">
 								<span class="glyphicon glyphicon-map-marker"></span>
-								<a href="http://www.cyphor.io" target="_blank">Website</a>
+								<a href="https://devpost.com/software/wifly" target="_blank">Devpost</a>
 							</span>
 						</span>
 						<span class="experience-details">
 							<span class="location">
 								<span class="glyphicon glyphicon-map-marker"></span>
-								<a href="https://github.com/cyphor-io" target="_blank">GitHub</a>
+								<a href="https://github.com/angus-mclean" target="_blank">GitHub</a>
 							</span>
 						</span>
 					</p>
@@ -408,30 +412,31 @@
 				<div class="">
 					<h1 >DreamTeam MCT</h1>
 					<p class="lead">
-						Platform Independent End-To-End Encryption App
+						Monitoring and Controlling a LEGO EV3 in realtime
 					</p>
 				</div>
 
 				<div class="col-md-4">
-					<!-- <img src="/img/projects/DreamTeamProject.png" alt=""> -->
+					<img class="project-img" src="/img/projects/dreamteam/comms-archi.jpg" alt="">
 				</div>
 				<div class="col-md-8">
 					<p>
 						<strong>Summary</strong>
 						<br/>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						Cyphor is an encryption app that enables people to communicate on their favourite websites in complete privacy.
-						Built as a chrome extension, cyphor would seamlessly sit ontop of any social media, email or instant messaging website and encrypt data going in to the site (input boxes) and decrypt data (text elements) coming out.
-						Using state-of-the-art encryption and web XSS policy cyphor can provably provide end-to-end encryption unbreakable to eaves-droppers, the user's platform and cyphor itself.
+						The Lego EV3 soccer playing robot was built with a team of 5 members for my Design Principles and Methods class at McGill.
+						After having completed the requirements for the robot I decided to increase useability and flexibility of the robot by building an interface to monitor and control it.
+						Using TCP/IP over Bluetooth (PAN) I was able to establish message queues and exchange JSON messages between the 2 onboard computers on the EV3 and a local socket server running on my laptop.
+						A set of message types and parameters were then established to communicate all telemetry data and all relevant commands.
 					</p>
 					<p>
 						<strong>Architecture Overview</strong>
 						<ul class="dashed notes text-small">
-							<li>Multi-Context Browser Extension with AngularJS UI</li>
-							<li>NodeJS and MongoDB RESTful backend</li>
-							<li>Docker and Docker-compose infrastructure</li>
+							<li>2 Lego EV3 MindStorm Kits</li>
+							<li>Java Threads and Message Queues</li>
+							<li>NodeJS, Socket.io and MongoDB backend</li>
 							<li>Socket.io realtime communciation</li>
-							<li>Signal Protocol, AES and ECC encryption schemes</li>
+							<li>TCP/IP over Bluetooth PAN network</li>
 						</ul>
 					</p>
 					<p>
@@ -440,13 +445,7 @@
 						<span class="experience-details">
 							<span class="location">
 								<span class="glyphicon glyphicon-map-marker"></span>
-								<a href="http://www.cyphor.io" target="_blank">Website</a>
-							</span>
-						</span>
-						<span class="experience-details">
-							<span class="location">
-								<span class="glyphicon glyphicon-map-marker"></span>
-								<a href="https://github.com/cyphor-io" target="_blank">GitHub</a>
+								<a href="https://github.com/nvelastegui/DreamTeamRobot" target="_blank">GitHub</a>
 							</span>
 						</span>
 					</p>
@@ -456,7 +455,186 @@
 		</div>
 		<div class="row small-spacing">
 			<div class="col-md-4 centered">
-				<figure class="slide-toggle" name="music_downloader">
+				<figure class="slide-toggle" name="ai_browser">
+					<img src="/img/projects/ai_browser.jpg" alt="" style="width:100%;height:250px;"/>
+					<figcaption>
+						<h3>AI Browser</h3>
+						<hr class="small">
+						<span>Surfin' the Interwebs with Voice and trainable AI</span>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-md-4 centered">
+				<figure class="slide-toggle" name="distracted_driving">
+					<img src="/img/projects/distracted-driving.png" alt="" style="width:100%;height:250px;"/>
+					<figcaption>
+						<h3>Distracted Driving</h3>
+						<hr class="small">
+						<span>Detection and classification of distracted drivers</span>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-md-4 centered">
+				<figure class="slide-toggle" name="soothe">
+					<img src="/img/projects/soothe-logo.png" alt="" style="width:100%;height:250px;"/>
+					<figcaption>
+						<h3>Soothe</h3>
+						<hr class="small">
+						<span>Chrome extension using sentiment analysis to censor offensive language</span>
+					</figcaption>
+					<span class="icon">
+						<span class="glyphicon glyphicon-new-window"></span>
+						<a href="http://www.getsoothe.ca/" target="_blank"></a>
+					</span>
+				</figure>
+			</div>
+		</div>
+		<div class="row small-spacing">
+			<div name="ai_browser" class="slider hider">
+				<hr>
+				<div class="">
+					<h1 >AI Browser</h1>
+					<p class="lead">
+						Surfin' the Interwebs with Voice and trainable AI
+					</p>
+				</div>
+
+				<div class="col-md-6">
+					<img class="project-img" src="/img/projects/ai-browser-demo.jpg" alt="">
+				</div>
+				<div class="col-md-6">
+					<p>
+						<strong>Summary</strong>
+						<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						Project built for the McGill Hackathon and winner of the Nuance prize.
+						Using Nuance voice recognition and natural language processing API's I built a chrome extension that would listen to users' commands and execute actions in your browser.
+						Most notably was the demonstration feature where users could 'show' the AI how to carry out a command and this capability would be added to a centralized repository of possible actions.
+					</p>
+					<p>
+						<strong>Architecture Overview</strong>
+						<ul class="dashed notes text-small">
+							<li>Multi-Context Browser Extension with AngularJS UI</li>
+							<li>Voice Recognition and Intent Parsing APIs</li>
+							<li>Firebase Real-Time database</li>
+							<li>Javascript browser and DOM events</li>
+						</ul>
+					</p>
+					<p>
+						<strong>Links</strong>
+						<br>
+						<span class="experience-details">
+							<span class="location">
+								<span class="glyphicon glyphicon-map-marker"></span>
+								<a href="https://devpost.com/software/ai-browser" target="_blank">DevPost</a>
+							</span>
+						</span>
+						<span class="experience-details">
+							<span class="location">
+								<span class="glyphicon glyphicon-map-marker"></span>
+								<a href="https://github.com/Angus-McLean/ai-browser" target="_blank">GitHub</a>
+							</span>
+						</span>
+					</p>
+				</div>
+				<hr>
+			</div>
+			<div name="distracted_driving" class="slider hider">
+				<hr>
+				<div class="">
+					<h1 >Distracted Driving</h1>
+					<p class="lead">
+						Detection and classification of distracted drivers
+					</p>
+				</div>
+
+				<div class="col-md-4">
+					<img class="project-img" src="/img/projects/distracted-driving2.jpg" alt="">
+				</div>
+				<div class="col-md-8">
+					<p>
+						<strong>Summary</strong>
+						<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						Using a deep sequential neural network of 2D convolutional followed by 2 fully connected perceptron layers to fine tune I was able to train a network to classify distracted drivers.
+						The model was then trained on a labeled data set made openly available by State Farm on Kaggle and was trained on AWS GPU servers to classify future images.
+						Then a Progressive Web App would take pictures at an interval and send them back to the server to analyze, warning beeps are triggered if the driver was seen to be driving dangerously.
+					</p>
+					<p>
+						<strong>Architecture Overview</strong>
+						<ul class="dashed notes text-small">
+							<li>Machine Learning built with Python and Keras</li>
+							<li>NodeJS RESTful backend</li>
+							<li>Python and Jupyter Notebook</li>
+							<li>Progressive Web App and UserMedia Api</li>
+						</ul>
+					</p>
+					<p>
+						<strong>Links</strong>
+						<br>
+						<span class="experience-details">
+							<span class="location">
+								<span class="glyphicon glyphicon-map-marker"></span>
+								<a href="https://github.com/Angus-McLean/FastAI-Course/blob/master/Lessons/Driver%20Classification%20v2.ipynb" target="_blank">GitHub</a>
+							</span>
+						</span>
+					</p>
+				</div>
+				<hr>
+			</div>
+			<div name="soothe" class="slider hider">
+				<hr>
+				<div class="">
+					<h1 >Soothe</h1>
+					<p class="lead">
+						Browse the web with peace of mind
+					</p>
+				</div>
+
+				<div class="col-md-6">
+					<img class="project-img" src="/img/projects/soothe-team.jpg" alt="">
+				</div>
+				<div class="col-md-6">
+					<p>
+						<strong>Summary</strong>
+						<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						Soothe is a Chrome extension that was built for the Carleton University hackathon and won second place overall and the HackHarrasment prize.
+						It uses sentiment analysis and users' contributions to analyse and filter pages of their malicious content.
+						Our main goal is to prevent online harassment and help users avoid seeing triggers while they browse the web.
+						We strongly believe that no one online should have to worry about this.
+					</p>
+					<p>
+						<strong>Architecture Overview</strong>
+						<ul class="dashed notes text-small">
+							<li>Sentiment Analysis</li>
+							<li>Multi-Context Browser Extension</li>
+							<li>Firebase Real-Time database</li>
+						</ul>
+					</p>
+					<p>
+						<strong>Links</strong>
+						<br>
+						<span class="experience-details">
+							<span class="location">
+								<span class="glyphicon glyphicon-map-marker"></span>
+								<a href="http://www.getsoothe.ca" target="_blank">Website</a>
+							</span>
+						</span>
+						<span class="experience-details">
+							<span class="location">
+								<span class="glyphicon glyphicon-map-marker"></span>
+								<a href="https://github.com/GetSoothe" target="_blank">GitHub</a>
+							</span>
+						</span>
+					</p>
+				</div>
+				<hr>
+			</div>
+		</div>
+		<div class="row small-spacing">
+			<div class="col-md-4 centered">
+				<figure class="slide-toggle_todo" name="music_downloader">
 					<img src="/img/projects/MusicDownloaderProject.jpg" alt="" style="width:100%;height:250px;"/>
 					<figcaption>
 						<h3>Music Downloader</h3>
@@ -466,8 +644,8 @@
 				</figure>
 			</div>
 			<div class="col-md-4 centered">
-				<figure class="slide-toggle" name="serverless_web_conf">
-					<img src="/img/projects/QuadCopterProject.png" alt="" style="width:100%;height:250px;"/>
+				<figure class="slide-toggle_todo" name="serverless_web_conf">
+					<img src="/img/projects/p2p.png" alt="" style="width:100%;height:250px;"/>
 					<figcaption>
 						<h3>Serverless Web Conferencing</h3>
 						<hr class="small">
@@ -476,7 +654,7 @@
 				</figure>
 			</div>
 			<div class="col-md-4 centered">
-				<figure class="slide-toggle" name="csv_processor">
+				<figure class="slide-toggle_todo" name="csv_processor">
 					<img src="/img/projects/CSVProcessorProject.png" alt="" style="width:100%;height:250px;"/>
 					<figcaption>
 						<h3>CSV-Processor</h3>
@@ -486,14 +664,14 @@
 				</figure>
 			</div>
 		</div>
-		<div class="row small-spacing">
-			<h1 name="music_downloader" class="slider hider">Music Downloader</h1>
-			<h1 name="serverless_web_conf" class="slider hider">Serverless Web Conferencing</h1>
-			<h1 name="csv_processor" class="slider hider">CSV-Processor</h1>
-		</div>
+		<!-- <div class="row small-spacing">
+			<h1 name="music_downloader">Music Downloader</h1>
+			<h1 name="serverless_web_conf">Serverless Web Conferencing</h1>
+			<h1 name="csv_processor">CSV-Processor</h1>
+		</div> -->
 		<div class="row small-spacing">
 			<div class="col-md-4 centered">
-				<figure class="slide-toggle" name="quadcopter">
+				<figure class="slide-toggle_todo" name="quadcopter">
 					<img src="/img/projects/QuadCopterProject.png" alt="" style="width:100%;height:250px;"/>
 					<figcaption>
 						<h3>QuadCopter</h3>
@@ -503,7 +681,7 @@
 				</figure>
 			</div>
 			<div class="col-md-4 centered">
-				<figure class="slide-toggle" name="blocker_game">
+				<figure class="slide-toggle_todo" name="blocker_game">
 					<img src="/img/projects/BlockerGameProject.png" alt="" style="width:100%;height:250px;"/>
 					<figcaption>
 						<h3>Blocker Game</h3>
@@ -513,7 +691,7 @@
 				</figure>
 			</div>
 			<div class="col-md-4 centered">
-				<figure class="slide-toggle" name="inventory_optimization">
+				<figure class="slide-toggle_todo" name="inventory_optimization">
 					<img src="/img/projects/InventoryProject.png" alt="" style="width:100%;height:250px;"/>
 					<figcaption>
 						<h3>Inventory Optimization</h3>
@@ -523,48 +701,12 @@
 				</figure>
 			</div>
 		</div>
-		<div class="row small-spacing">
-			<h1 name="quadcopter" class="slider hider">QuadCopter</h1>
-			<h1 name="blocker_game" class="slider hider">Blocker Game</h1>
-			<h1 name="inventory_optimization" class="slider hider">Inventory Optimization</h1>
-		</div>
-		<div class="row small-spacing">
-			<div class="col-md-4 centered">
-				<figure class="slide-toggle" name="access_control">
-					<img src="/img/projects/QuadCopterProject.png" alt="" style="width:100%;height:250px;"/>
-					<figcaption>
-						<h3>Access Control</h3>
-						<hr class="small">
-						<span>Designed and built functional Access Control system</span>
-					</figcaption>
-				</figure>
-			</div>
-			<div class="col-md-4 centered">
-				<figure class="slide-toggle" name="impromptu">
-					<img src="/img/projects/QuadCopterProject.png" alt="" style="width:100%;height:250px;"/>
-					<figcaption>
-						<h3>Impromptu</h3>
-						<hr class="small">
-						<span>Real Time social media application built with Typescript and Angular4</span>
-					</figcaption>
-				</figure>
-			</div>
-			<div class="col-md-4 centered">
-				<figure class="slide-toggle" name="soothe">
-					<img src="/img/projects/QuadCopterProject.png" alt="" style="width:100%;height:250px;"/>
-					<figcaption>
-						<h3>Soothe</h3>
-						<hr class="small">
-						<span>Chrome extension uses sentiment analysis to censor offensive language</span>
-					</figcaption>
-				</figure>
-			</div>
-		</div>
-		<div class="row small-spacing">
-			<h1 name="access_control" class="slider hider">Access Control</h1>
-			<h1 name="impromptu" class="slider hider">Impromptu</h1>
-			<h1 name="soothe" class="slider hider">Soothe</h1>
-		</div>
+		<!-- <div class="row small-spacing">
+			<h1 name="quadcopter">QuadCopter</h1>
+			<h1 name="blocker_game">Blocker Game</h1>
+			<h1 name="inventory_optimization">Inventory Optimization</h1>
+		</div> -->
+
 	</div>
 
 	<div class="background-grey">
@@ -1304,12 +1446,12 @@
 			</div>
 			<div class="experience row">
 				<div class="col-md-4">
-					<h4>McGill Sports Teams</h4>
+					<h4>McGill Athletics</h4>
 					<p class="experience-period"> Sept 2014 - Current </p>
 				</div>
 				<div class="col-md-8">
 					<p>
-						<strong>Rower / Thrower</strong>
+						<strong>Rower and Ultimate Frisbee Teams</strong>
 						<br/>
 						<ul class="dashed notes text-normal">
 							<li> McGill Men's Ultimate Frisbee B Team </li>

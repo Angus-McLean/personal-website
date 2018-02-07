@@ -235,3 +235,7 @@ figure:hover figcaption {
 .slide-toggle {
 	cursor: pointer;
 }
+
+.project-img {
+	width: 100%;
+}
