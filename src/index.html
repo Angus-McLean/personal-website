@@ -21,12 +21,12 @@
 	  ga(function(){
 	    let tracker = ga.getAll()[0]
 	    let tag = {
-		'dimension1' : Date.now(),
+		'dimension1' : Date.now().toString(),
 		'dimension2' : tracker.get('clientId')
 	    }
-		ga('set', tag)
+		ga(tracker.get('name')+'.set', tag)
 		console.log(tag)
-	  	ga('send', 'pageview');
+		ga(tracker.get('name')+'.send', 'pageview');
 	   })
 	</script>
 	
