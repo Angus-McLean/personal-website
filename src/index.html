@@ -46,19 +46,19 @@
                 Angus McLean
             </h1>
             <p class="intro-subtitle">
-                Data Scientist | Lead Engineer
+                Data Scientist | Full Stack Developer
             </p>
         </div>
         <a href="#profile" class="intro-scroll">
             <span class="glyphicon glyphicon-chevron-down"></span>
         </a>
     </div>
-    <div>
+    <div style="background: whitesmoke;">
         <div id="profile" class="container" style="padding: 40px 50px;">
             <h1>Projects</h1>
             <!-- <p class="lead">Full Stack and Data Science Analyst</p> -->
             <blockquote class="blockquote text-center" style="border-left: none;">
-                <p class="mb-0">To me, ideas are worth nothing unless executed. They are just a multiplier. <br> Execution is worth millions.</p>
+                <p class="mb-0">Ideas are worth nothing unless executed. They are just a multiplier. <br> Execution is worth millions.</p>
                 <footer class="blockquote-footer">Steve Jobs</footer>
               </blockquote>
             <!-- <hr> -->
@@ -75,7 +75,7 @@
                             <span>Autonomous System for Adaptively Merchandising & Advertising </span>
                         </figcaption>
                     </figure>
-                    <a style="background-image:url()"> <div class="hex-1"></div> <div class="hex-2"></div> </a>
+                    <a style="background-image:url(/img/projects/adaptive-merch.png)"> <div class="hex-1"></div> <div class="hex-2"></div> </a>
                 </div>
                 <div class="hex grid-3 " style="opacity: 1;">
                 <!-- - Promotion Effectiveness -->
@@ -86,7 +86,7 @@
                             <span>Modeling & Optimization of Promotional Campaign Effectiveness</span>
                         </figcaption>
                     </figure>
-                    <a style="background-image:url()"> <div class="hex-1"></div> <div class="hex-2"></div> </a>
+                    <a style="background-image:url(/img/projects/promotionAnalysis.png)"> <div class="hex-1"></div> <div class="hex-2"></div> </a>
                 </div>
                 <div class="hex grid-3 " style="opacity: 1;">
                 <!-- - Impact Analysis -->
@@ -97,7 +97,7 @@
                             <span>Understanding & Quantifying the Causal Impact & ROI of Business Decisions</span>
                         </figcaption>
                     </figure>
-                    <a style="background-image:url()"> <div class="hex-1"></div> <div class="hex-2"></div> </a>
+                    <a style="background-image:url(/img/projects/impact-analysis.png)"> <div class="hex-1"></div> <div class="hex-2"></div> </a>
                 </div>
                 <div class="hex grid-3 " style="opacity: 1;">
                 <!-- - COVID Ecom Response -->
@@ -108,7 +108,7 @@
                             <span>Analysis & Modeling of Consumer Trends during COVID-19 <br/></span>
                         </figcaption>
                     </figure>
-                    <a style="background-image:url()"> <div class="hex-1"></div> <div class="hex-2"></div> </a>
+                    <a style="background-image:url(/img/projects/covid-analysis.png)"> <div class="hex-1"></div> <div class="hex-2"></div> </a>
                 </div>
                 <div class="hex grid-3 " style="opacity: 1;">
                 <!-- - Pacman AI -->
@@ -119,7 +119,7 @@
                             <span>Custom Convolutional Q-Learning Agent to Win PacMan with Python & Numpy</span>
                         </figcaption>
                     </figure>
-                    <a style="background-image:url()"> <div class="hex-1"></div> <div class="hex-2"></div> </a>
+                    <a style="background-image:url(/img/projects/pacman.png)"> <div class="hex-1"></div> <div class="hex-2"></div> </a>
                 </div>
                 <div class="hex grid-3 tertiary" style="opacity: 1;">
                 <!-- - JIRA Topic Modeling -->
@@ -130,7 +130,7 @@
                             <span>Identifying Problem Areas in Jira-Tickets with NLP & Topic Modeling</span>
                         </figcaption>
                     </figure>
-                    <a style="background-image:url()"> <div class="hex-1"></div> <div class="hex-2"></div> </a>
+                    <a style="background-image:url(/img/projects/jira-insights.png)"> <div class="hex-1"></div> <div class="hex-2"></div> </a>
                 </div>
                 <div class="hex grid-3 " style="opacity: 1;">
                 <!-- - Cyphor -->
@@ -209,7 +209,7 @@
                             <span>Serverless React Video Conferencing Application for Easy Sidebar Conversations</span>
                         </figcaption>
                     </figure>
-                    <a style="background-image:url()"> <div class="hex-1"></div> <div class="hex-2"></div> </a>
+                    <a style="background-image:url(/img/projects/whisper.jpeg)"> <div class="hex-1"></div> <div class="hex-2"></div> </a>
                 </div>
                 <div class="hex grid-3 " style="opacity: 1;">
                 <!-- - Serverless P2P -->
@@ -224,8 +224,8 @@
                 </div>
             </div>
             <br><br>
-            <div>
-                <h1>HELLO WORLD</h1>
+            <div id="project-details">
+                
             </div>
         </div>
     </div>
@@ -233,6 +233,11 @@
 </body>
 <footer>
     <script type="text/javascript" src="/js/particles.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#project-details').load('/projects/snippets/tmp.html')
+        })
+    </script>
 </footer>
 <style>
 

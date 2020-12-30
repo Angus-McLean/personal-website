@@ -197,8 +197,8 @@ figure {
 
 .list-hex-grid div.hex:hover a {
 	/* filter: blur(3px); */
-	filter: drop-shadow(6px 10px 6px black) brightness(0.3);
-	transform: translateY(-5px);
+	filter: drop-shadow(8px 13px 8px black) brightness(0.3);
+	transform: translateY(-8px);
 
 	-webkit-transition: all 0.3s ease;
 	-moz-transition:    all 0.3s ease;
