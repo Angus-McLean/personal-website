@@ -26,7 +26,7 @@ function applySmoothScroll() {
 			$('html, body').animate(
 			{
 				scrollTop: $( $.attr(this, 'href') ).offset().top
-			}, 400);
+			}, 700);
 		}
 		return false;
 	});
